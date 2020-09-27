@@ -2,7 +2,7 @@
   <div id="app">
     <div class="project-info">
       <h1>Jigsaw Mini Project - Ed Piper</h1>
-      <p>Double click on the a node to generate a child</p>
+      <p>Double click on a node to generate a child</p>
     </div>
     <Demo></Demo>
   </div>
