@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jigsaw.MiniProject.Data", "Jigsaw.MiniProject.Data\Jigsaw.MiniProject.Data.csproj", "{AC358296-D180-48FA-9F45-C724328AC885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jigsaw.MiniProject.Web", "Jigsaw.MiniProject.Web\Jigsaw.MiniProject.Web.csproj", "{A8F70F3B-ACAF-4705-97A6-3989F3D1A1F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC358296-D180-48FA-9F45-C724328AC885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC358296-D180-48FA-9F45-C724328AC885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC358296-D180-48FA-9F45-C724328AC885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC358296-D180-48FA-9F45-C724328AC885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F70F3B-ACAF-4705-97A6-3989F3D1A1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F70F3B-ACAF-4705-97A6-3989F3D1A1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F70F3B-ACAF-4705-97A6-3989F3D1A1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F70F3B-ACAF-4705-97A6-3989F3D1A1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54F003AB-9D05-4E87-AE51-80EC3F78CFD5}
+	EndGlobalSection
+EndGlobal
