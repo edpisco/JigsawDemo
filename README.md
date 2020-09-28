@@ -1,5 +1,7 @@
 # Jigsaw Demo
 
+Update 11:50 28/09 - Removed yFiles evaulation files at request of yFiles. package.json and license.ts need to be updated to point at local yFiles packages
+
 The project comprises of a Vue/Typescript based client backed with a .NET Core WebAPI.
 
 To run the client:
