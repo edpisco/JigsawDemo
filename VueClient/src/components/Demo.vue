@@ -17,8 +17,8 @@ import {
 import axios from 'axios';
 import license from "../license";
 import populateTreeGraph from "../graphGenerator";
-import constants from '../constants';
 import {Vue} from "vue-property-decorator";
+import API_URL from "../constants";
 
 License.value = license;
 
@@ -48,7 +48,7 @@ const Demo = Vue.extend({
       let graph = graphComponent.graph;
       graph.clear();
 
-      const response = await axios.get(constants.API_URL);
+      const response = await axios.get(API_URL);
       if (response.status !== 200) {
         console.log(response.statusText);
         return;
@@ -67,7 +67,7 @@ const Demo = Vue.extend({
             parentId: node.tag.id,
             name: `Child of ${node.tag.name}`
           }
-          axios.post(constants.API_URL, newNode).then(response => {
+          axios.post(API_URL, newNode).then(response => {
             if (response.status !== 200) {
               console.log('Save failed');
               return;
